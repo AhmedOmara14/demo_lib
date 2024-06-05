@@ -1,0 +1,2 @@
+-keep class com.example.myapplication.** { *; }
+-keep class com.example.library.** { *; }
