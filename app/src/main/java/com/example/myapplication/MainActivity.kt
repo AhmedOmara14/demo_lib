@@ -22,12 +22,10 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         val list = messageCollectorModule.collectSMSMessages()?.listIterator()
         if (list != null) {
-            for (i in list){
-                Log.d("TAG", "onCreate1: "+i+"\n")
-
+            for (i in list) {
+                Log.d("TAG", "onCreate1: " + i + "\n")
             }
         }
 
